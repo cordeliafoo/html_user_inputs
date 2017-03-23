@@ -1,0 +1,9 @@
+body{
+  max-width: 800px;
+  margin: 0 auto;
+  width: 80%
+}
+
+header, footer{
+  margin: 10px;
+}

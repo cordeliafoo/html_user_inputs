@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>General Assembly Account Creation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+
+    <img src="general_assembly_logo.png" alt="image">
+    <h1>General Assembly Account Creation</h1>
+  </header>
+
+  <p>Welcome to the General Assembly. General Assembly is a global
+  institution training people all over the world in today's top
+  technologies.</p>
+
+  <p> Please fill out the information below to create your General Assembly
+  account. Let us know what city you're in and what course
+  you're taking. This list is for all students. Please tell us what
+  city you're in and whether you're taking the Immersive User Experience (UX)
+  course or the Immersive Web Development course. </p>
+
+  <form class="form" action="success.html" method="get">
+    <!-- change method to get -->
+    <label for="city">City: </label>
+    <select class="city" name="city">
+      <option value="Hong Kong">Hong Kong</option>
+      <option value="London">London</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="New York">New York</option>
+      <option value="Portland">Portland</option>
+      <option value="San Francisco">San Francisco</option>
+      <option value="Seattle">Seattle</option>
+      <option value="Singapore">Singapore</option>
+    </select><br><br>
+
+    <div class="course">
+      <label for="course">Course: </label>
+      <input type="radio" name="course" value="UX">UX
+      <input type="radio" name="course" value="Wed Dev" checked = 'checked'>Wed Dev
+    </div>
+
+    <div class="name">
+      <label for="name">Name</label>
+      <input type="text" name="name" value="">
+    </div>
+
+    <div class="email">
+      <label for="email">Email</label>
+      <input type="text" name="email" value="">
+    </div>
+
+    <div class="password">
+      <label for="password">Password</label>
+      <input type="password" name="password" value="">
+
+    </div>
+
+    <input type="checkbox" name="checkbox" value="checkbox">Yes, subscribe me to the General Assembly student newsletter<br><br>
+
+    <input type="submit" name="subscribe">
+
+
+    </label>
+  </form>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+<script type="text/javascript" src='script.js'></script>
+<footer></footer>
+
+
+
+</html>
